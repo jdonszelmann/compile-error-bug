@@ -9,4 +9,8 @@ pub fn test() {
     // compile error when compiling test2
     // but *not* when compiling test2
     1u32 << 32;
+
+    // compile error when compiling test2
+    // but *not* when compiling test2
+    // 255u8 + 1;
 }
